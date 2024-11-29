@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000; /* Black background */
+}
+
+.main {
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Adjusts space between elements */
+    align-items: center;
+    overflow: hidden; /* Prevents content from overflowing */
+    margin-top: 10%;
+}
+
+.image-container {
+    text-align: center;
+    z-index: 3;
+    padding: 0 10px; /* Add some padding for responsive layouts */
+}
+
+.image-container h1 {
+    color: #00bcd4;
+    font-size: 30px; /* Reduced font size to fit content better */
+    margin-bottom: 12px;
+}
+
+.image-container p {
+    color: #324042;
+    margin-bottom: 0px;
+    font-size: 16px; /* Adjust font size to fit within the viewport */
+}
+
+.image-container .image img {
+    width: 500px; /* Adjust the size to fit better */
+    max-width: 100%;
+   
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.input button.talk {
+    background: #00bcd4;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    margin-bottom: 150%;
+}
+
+.input h1.content {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 18px;
+    margin-bottom: 150%;
+}
